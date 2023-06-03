@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./sites/HomePage";
 import AdminPage from "./sites/AdminPage";
-
+import myImage from "./minilogo.svg"
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <header>
           <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
-              <Navbar.Brand>Master Thesis Project</Navbar.Brand>
+              <Navbar.Brand><img src={myImage}></img>VacationBOT</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto w-100 justify-content-end">
