@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./sites/HomePage";
 import AdminPage from "./sites/AdminPage";
-import myImage from "./VB_long_TUM.svg"
+import myImage from "./VB_Long_TUM.svg"
 
 function App() {
   return (
