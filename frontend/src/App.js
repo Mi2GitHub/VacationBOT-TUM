@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter> 
       <div className="d-flex flex-column min-vh-200">
         <header>
-          <Navbar bg="light" variant="light" expand="lg">
+          <Navbar bg="light" variant="dark" expand="lg">
             <Container>
               <Navbar.Brand><img src={myImage}></img></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav">
