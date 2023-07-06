@@ -5,14 +5,14 @@ import Nav from "react-bootstrap/Nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./sites/HomePage";
 import AdminPage from "./sites/AdminPage";
-import myImage from "./1.svg"
+import myImage from "./minilogo.svg"
 
 function App() {
   return (
     <BrowserRouter> 
-      <div className="d-flex flex-column min-vh-200">
+      <div className="d-flex flex-column min-vh-100">
         <header>
-          <Navbar bg="light" variant="dark" expand="lg">
+          <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
               <Navbar.Brand><img src={myImage}></img>VacationBOT</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav">
