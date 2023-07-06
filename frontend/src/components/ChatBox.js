@@ -44,7 +44,7 @@ export default function ChatBox() {
   const supportHandler = () => {
     setIsOpen(true);
     if (!userName) {
-      setUserName(prompt("Please enter your name"));
+      setUserName(prompt("Bitte gebe deinen Namen ein."));
     }
     const sk = socketIOClient(ENDPOINT);
     setSocket(sk);
@@ -56,7 +56,7 @@ export default function ChatBox() {
   const submitHandler = (e) => {
     e.preventDefault();
     if (!messageBody.trim()) {
-      alert("Error. Please type message.");
+      alert("Fehler. Bitte tippe eine Nachricht ein.");
     } else {
       setMessages([
         ...messages,
@@ -77,14 +77,14 @@ export default function ChatBox() {
     <div className="chatbox">
       {!isOpen ? (
         <Button onClick={supportHandler} variant="primary">
-          Click here to open VacationBOT
+          Klicke hier, um VacationBOT zu öffnen
         </Button>
       ) : (
         <Card>
           <Card.Body>
             <Row>
               <Col>
-                <strong>You are connected with VacationBOT. Please enter your messages. </strong>
+                <strong>Du bist mit VacationBOT verbunden. Bitte tippe deine Nachricht ein. </strong>
               </Col>
               <Col className="text-end">
                 <Button
@@ -110,10 +110,10 @@ export default function ChatBox() {
                   value={messageBody}
                   onChange={(e) => setMessageBody(e.target.value)}
                   type="text"
-                  placeholder="type message"
+                  placeholder="Hier Nachricht eingeben"
                 ></FormControl>
                 <Button type="submit" variant="primary">
-                  Send
+                  Senden
                 </Button>
               </InputGroup>
             </form>

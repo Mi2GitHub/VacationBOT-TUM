@@ -36,7 +36,7 @@ function App() {
           </Container>
         </main>
         <footer className="mt-auto">
-          <div className="text-center"> Michael Kraus | Technical University of Munich | School of Engineering and Design | Ergonomics - Human Factors Engineering</div>
+          <div className="text-center"> Michael Kraus | TU München | School of Engineering and Design | Ergonomie - Human Factors Engineering</div>
         </footer>
       </div>
     </BrowserRouter>
