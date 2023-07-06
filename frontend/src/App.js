@@ -18,7 +18,7 @@ function App() {
               <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto w-100 justify-content-end">
-                    <a href="/admin" className="nav-link" target="_blank">
+                    <a className="nav-link" target="_blank">
                     VacationBOT
                     </a>
                   </Nav>
@@ -30,6 +30,7 @@ function App() {
         <main>
           <Container className="mt-3">
             <Routes>
+              <Route path="/admin-michaelkraus@tum" element={<AdminPage />}></Route>
               <Route path="/" element={<HomePage />} />
             </Routes>
           </Container>
