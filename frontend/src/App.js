@@ -10,11 +10,11 @@ import myImage from "./1.svg"
 function App() {
   return (
     <BrowserRouter> 
-      <div className="d-flex flex-column min-vh-100">
+      <div className="d-flex flex-column min-vh-200">
         <header>
-          <Navbar bg="dark" variant="dark" expand="lg">
+          <Navbar bg="light" variant="light" expand="lg">
             <Container>
-              <Navbar.Brand><img src={myImage}></img>VacationBOT</Navbar.Brand>
+              <Navbar.Brand><img src={myImage}></img></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto w-100 justify-content-end">
