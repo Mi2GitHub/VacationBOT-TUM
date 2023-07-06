@@ -27,6 +27,13 @@ function App() {
             </Container>
           </Navbar>
         </header>
+        <main>
+          <Container className="mt-3">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+            </Routes>
+          </Container>
+        </main>
         <footer className="mt-auto">
           <div className="text-center"> Michael Kraus | Technical University of Munich | School of Engineering and Design | Ergonomics - Human Factors Engineering</div>
         </footer>
