@@ -15,7 +15,7 @@ code {
 .chatbox {
   color: #000000;
   position: fixed;
-  left: 2rem;
+  right: 2rem;
   bottom: 2rem;
 }
 .chatbox .list-group {
