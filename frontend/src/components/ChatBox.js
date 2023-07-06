@@ -18,7 +18,7 @@ export default function ChatBox() {
 
   const [userName, setUserName] = useState("");
   const [messages, setMessages] = useState([
-    { from: "VacationBOT", body: "Hello there, I am your personal vacation planning assistant. How can I help you?" },
+    { from: "VacationBOT", body: "Hallo, ich bin dein persönlicher Urlaubsplanungsassistent. Wie kann ich dir helfen?" },
   ]);
 
   const [socket, setSocket] = useState(null);
