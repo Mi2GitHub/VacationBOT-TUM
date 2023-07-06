@@ -10,9 +10,9 @@ import myImage from "./1.svg"
 function App() {
   return (
     <BrowserRouter> 
-      <div className="d-flex flex-column min-vh-100">
+      <div className="d-flex flex-column min-vh-200">
         <header>
-          <Navbar bg="dark" variant="dark" expand="lg">
+          <Navbar bg="light" variant="dark" expand="lg">
             <Container>
               <Navbar.Brand><img src={myImage}></img>VacationBOT</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav">
